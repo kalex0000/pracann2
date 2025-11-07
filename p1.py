@@ -1,3 +1,4 @@
+#Implement Single-Layer Perceptron to classify a dataset. 
 import numpy as np
 class SingleLayerPerceptron:
     def __init__(self, input_size, learning_rate=0.1, epochs=100):
@@ -29,3 +30,4 @@ slp.train(X, y)
 # Test predictions
 for sample in X:
     print(f"Input: {sample}, Predicted: {slp.predict(sample)}")
+
