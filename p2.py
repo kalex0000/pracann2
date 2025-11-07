@@ -1,3 +1,4 @@
+#Implement Multi-Layer Perceptron (MLP) using Backpropagation Algorithm. 
 import numpy as np
 # Activation function
 def sigmoid(x):
@@ -52,3 +53,4 @@ for i in range(len(X)):
     actual = y[i]
     predicted = mlp.predict(sample)
     print(f"Input: {sample.flatten()}, Actual: {actual[0]}, Predicted: {int(predicted[0][0])}")
+
